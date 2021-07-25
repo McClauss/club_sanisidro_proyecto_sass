@@ -1,0 +1,70 @@
+/*Nesting - Anidamiento*/
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tarjeta {
+  background-color: #EDC02C;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.tarjeta a {
+  text-decoration: none;
+}
+.tarjeta a:hover {
+  text-decoration: underline;
+}
+
+.tarjeta__img {
+  width: 300px;
+  height: 180px;
+  margin-right: 30px;
+}
+
+.tarjeta__titulo {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.tarjeta__parrafo {
+  line-height: 28px;
+  font-size: 1rem;
+}
+
+/*
+.section-menu {
+    background-color: cadetblue;
+
+    h1{
+        color: black;
+        a{
+            text-decoration: underline;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        background-color: darkolivegreen;
+    }
+}
+
+.carousel{
+    background-color: $bg-color;
+    font-size: $font-general;
+}*/
+
+/*# sourceMappingURL=style.css.map */
