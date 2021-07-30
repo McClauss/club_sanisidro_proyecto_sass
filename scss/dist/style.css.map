@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["style.scss"],"sourcesContent":["@import 'base';"],"file":"style.css"}
+{"version":3,"names":[],"mappings":"","sources":["style.scss"],"sourcesContent":["@import 'base';\r\n@import 'operadores';"],"file":"style.css"}

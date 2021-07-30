@@ -1,0 +1,17 @@
+/*Variables*/
+$tamano: 12px;
+
+
+@mixin fuente($prop){
+    font-family: sans-serif;
+    font-size: $prop*2;
+    text-align: center;
+}
+
+h1{
+    @include fuente($tamano+5);
+}
+
+h2, h3{
+    @include fuente($tamano);
+}

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_operadores.scss"],"sourcesContent":["/*Variables*/\r\n$tamano: 12px;\r\n\r\n\r\n@mixin fuente($prop){\r\n    font-family: sans-serif;\r\n    font-size: $prop*2;\r\n    text-align: center;\r\n}\r\n\r\nh1{\r\n    @include fuente($tamano+5);\r\n}\r\n\r\nh2, h3{\r\n    @include fuente($tamano);\r\n}"],"file":"_operadores.css"}
